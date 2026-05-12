@@ -1,0 +1,201 @@
+product_id,product_name,category,price,avg_rating,n_reviews
+P0001,Product 1,Toys,36.13,2.7,1767
+P0002,Product 2,Home & Garden,24.56,4.1,772
+P0003,Product 3,Sports,36.3,2.6,1858
+P0004,Product 4,Toys,4.54,4.0,410
+P0005,Product 5,Books,26.58,4.9,633
+P0006,Product 6,Automotive,47.33,3.9,776
+P0007,Product 7,Sports,145.17,3.5,1336
+P0008,Product 8,Sports,19.72,4.1,928
+P0009,Product 9,Toys,14.75,3.6,1240
+P0010,Product 10,Clothing,20.05,3.9,1262
+P0011,Product 11,Books,82.72,4.9,862
+P0012,Product 12,Toys,46.01,3.5,1943
+P0013,Product 13,Books,19.5,4.9,587
+P0014,Product 14,Books,55.33,4.8,84
+P0015,Product 15,Automotive,36.49,3.0,444
+P0016,Product 16,Sports,87.24,2.7,112
+P0017,Product 17,Home & Garden,16.41,2.8,1455
+P0018,Product 18,Automotive,23.86,2.5,1737
+P0019,Product 19,Automotive,22.37,2.7,773
+P0020,Product 20,Books,7.66,4.2,747
+P0021,Product 21,Beauty,44.53,2.7,815
+P0022,Product 22,Sports,42.99,3.3,1339
+P0023,Product 23,Clothing,33.29,4.6,107
+P0024,Product 24,Automotive,26.19,2.6,1883
+P0025,Product 25,Home & Garden,8.04,4.5,807
+P0026,Product 26,Beauty,21.74,3.2,1368
+P0027,Product 27,Beauty,23.51,2.8,868
+P0028,Product 28,Clothing,14.85,4.2,444
+P0029,Product 29,Automotive,28.18,4.1,456
+P0030,Product 30,Home & Garden,49.6,4.7,1341
+P0031,Product 31,Sports,218.37,4.3,258
+P0032,Product 32,Electronics,39.43,4.5,175
+P0033,Product 33,Home & Garden,42.84,3.2,1514
+P0034,Product 34,Clothing,30.74,2.9,993
+P0035,Product 35,Beauty,4.86,4.4,1368
+P0036,Product 36,Sports,32.25,4.5,1029
+P0037,Product 37,Home & Garden,35.17,5.0,551
+P0038,Product 38,Electronics,388.87,3.5,768
+P0039,Product 39,Electronics,27.32,3.4,1139
+P0040,Product 40,Books,44.77,4.4,1596
+P0041,Product 41,Books,31.99,3.4,90
+P0042,Product 42,Toys,10.29,4.8,142
+P0043,Product 43,Clothing,103.84,4.6,806
+P0044,Product 44,Automotive,70.24,3.6,909
+P0045,Product 45,Home & Garden,73.04,4.4,147
+P0046,Product 46,Home & Garden,13.34,4.4,193
+P0047,Product 47,Automotive,134.67,2.8,1434
+P0048,Product 48,Toys,8.15,4.8,1363
+P0049,Product 49,Beauty,59.55,3.8,794
+P0050,Product 50,Beauty,296.03,4.6,1541
+P0051,Product 51,Toys,12.3,3.3,1885
+P0052,Product 52,Beauty,18.8,4.7,993
+P0053,Product 53,Books,36.59,3.5,78
+P0054,Product 54,Home & Garden,20.02,2.5,555
+P0055,Product 55,Toys,7.02,4.8,1807
+P0056,Product 56,Home & Garden,35.47,2.7,62
+P0057,Product 57,Automotive,11.45,3.3,1483
+P0058,Product 58,Electronics,53.18,4.9,214
+P0059,Product 59,Books,13.2,4.9,135
+P0060,Product 60,Sports,156.01,3.9,1780
+P0061,Product 61,Books,15.13,4.1,52
+P0062,Product 62,Toys,24.0,3.6,1785
+P0063,Product 63,Sports,74.7,3.2,1916
+P0064,Product 64,Electronics,9.67,3.3,120
+P0065,Product 65,Toys,41.57,4.2,770
+P0066,Product 66,Clothing,122.38,4.4,1696
+P0067,Product 67,Home & Garden,6.64,4.5,1216
+P0068,Product 68,Electronics,39.83,4.5,857
+P0069,Product 69,Home & Garden,42.94,2.7,104
+P0070,Product 70,Beauty,72.37,3.7,1407
+P0071,Product 71,Clothing,9.61,2.6,1945
+P0072,Product 72,Clothing,8.84,3.9,1553
+P0073,Product 73,Electronics,55.81,3.6,909
+P0074,Product 74,Clothing,44.57,4.7,369
+P0075,Product 75,Sports,42.54,3.4,909
+P0076,Product 76,Clothing,46.83,2.8,1729
+P0077,Product 77,Home & Garden,16.78,2.9,290
+P0078,Product 78,Home & Garden,41.77,4.4,1228
+P0079,Product 79,Toys,44.39,4.0,1897
+P0080,Product 80,Home & Garden,16.21,2.8,1228
+P0081,Product 81,Toys,213.96,2.7,676
+P0082,Product 82,Home & Garden,53.19,4.3,102
+P0083,Product 83,Sports,10.06,2.7,681
+P0084,Product 84,Automotive,63.85,4.6,1979
+P0085,Product 85,Toys,12.49,4.3,70
+P0086,Product 86,Books,72.75,2.7,643
+P0087,Product 87,Beauty,105.49,2.7,1084
+P0088,Product 88,Electronics,14.58,5.0,1436
+P0089,Product 89,Home & Garden,86.78,3.4,1822
+P0090,Product 90,Clothing,50.04,3.4,1038
+P0091,Product 91,Automotive,75.34,4.5,1499
+P0092,Product 92,Home & Garden,220.7,4.9,613
+P0093,Product 93,Clothing,25.91,5.0,691
+P0094,Product 94,Beauty,15.58,4.4,1862
+P0095,Product 95,Beauty,13.61,3.4,543
+P0096,Product 96,Beauty,14.65,2.7,1438
+P0097,Product 97,Clothing,30.66,4.4,847
+P0098,Product 98,Home & Garden,46.58,3.9,1546
+P0099,Product 99,Beauty,43.67,3.6,654
+P0100,Product 100,Sports,75.73,4.8,242
+P0101,Product 101,Toys,33.55,2.8,533
+P0102,Product 102,Clothing,141.67,3.7,355
+P0103,Product 103,Clothing,25.42,2.5,1079
+P0104,Product 104,Home & Garden,502.79,3.7,555
+P0105,Product 105,Clothing,61.91,2.6,1978
+P0106,Product 106,Clothing,14.05,2.8,1111
+P0107,Product 107,Beauty,11.35,2.8,1763
+P0108,Product 108,Home & Garden,53.65,4.1,1846
+P0109,Product 109,Beauty,26.48,4.4,1956
+P0110,Product 110,Toys,67.63,4.0,1106
+P0111,Product 111,Automotive,53.16,4.9,803
+P0112,Product 112,Toys,30.79,3.4,258
+P0113,Product 113,Automotive,14.2,3.2,56
+P0114,Product 114,Beauty,7.28,4.7,1154
+P0115,Product 115,Toys,21.19,3.1,223
+P0116,Product 116,Home & Garden,77.98,4.9,248
+P0117,Product 117,Electronics,41.02,2.5,1089
+P0118,Product 118,Beauty,9.53,4.9,359
+P0119,Product 119,Automotive,39.38,2.6,116
+P0120,Product 120,Sports,48.68,4.7,840
+P0121,Product 121,Automotive,13.68,3.8,57
+P0122,Product 122,Sports,38.62,5.0,1606
+P0123,Product 123,Clothing,35.1,2.7,346
+P0124,Product 124,Toys,10.56,3.9,1059
+P0125,Product 125,Sports,47.36,4.9,813
+P0126,Product 126,Automotive,58.02,3.8,1290
+P0127,Product 127,Clothing,97.81,4.1,17
+P0128,Product 128,Electronics,94.99,4.2,634
+P0129,Product 129,Home & Garden,8.35,3.6,1900
+P0130,Product 130,Home & Garden,12.96,4.1,1286
+P0131,Product 131,Home & Garden,55.43,4.0,1725
+P0132,Product 132,Sports,55.36,4.8,728
+P0133,Product 133,Electronics,55.43,2.6,312
+P0134,Product 134,Sports,1560.45,3.2,648
+P0135,Product 135,Toys,58.61,4.9,65
+P0136,Product 136,Sports,103.09,4.7,735
+P0137,Product 137,Electronics,85.97,3.6,535
+P0138,Product 138,Electronics,63.52,4.1,483
+P0139,Product 139,Toys,24.16,3.2,37
+P0140,Product 140,Electronics,70.74,3.0,87
+P0141,Product 141,Automotive,15.29,3.7,1249
+P0142,Product 142,Electronics,26.13,3.4,1419
+P0143,Product 143,Home & Garden,20.38,4.0,374
+P0144,Product 144,Automotive,35.94,2.7,675
+P0145,Product 145,Automotive,335.18,4.9,535
+P0146,Product 146,Toys,5.12,5.0,708
+P0147,Product 147,Books,65.78,4.2,1345
+P0148,Product 148,Books,6.6,3.8,892
+P0149,Product 149,Electronics,20.66,3.3,1040
+P0150,Product 150,Automotive,98.39,4.5,1036
+P0151,Product 151,Books,35.31,4.2,1656
+P0152,Product 152,Books,11.27,2.9,928
+P0153,Product 153,Electronics,16.19,4.8,759
+P0154,Product 154,Books,65.34,4.6,372
+P0155,Product 155,Sports,15.95,4.9,1784
+P0156,Product 156,Clothing,41.12,4.3,1541
+P0157,Product 157,Toys,34.66,4.0,1307
+P0158,Product 158,Clothing,17.26,3.5,1539
+P0159,Product 159,Electronics,282.58,4.8,815
+P0160,Product 160,Home & Garden,62.42,4.7,748
+P0161,Product 161,Toys,4.37,2.6,1916
+P0162,Product 162,Electronics,39.9,2.6,1048
+P0163,Product 163,Automotive,17.09,3.4,1225
+P0164,Product 164,Home & Garden,77.67,4.5,1664
+P0165,Product 165,Clothing,14.99,5.0,494
+P0166,Product 166,Electronics,29.53,2.9,37
+P0167,Product 167,Automotive,54.87,4.0,723
+P0168,Product 168,Toys,78.71,3.5,1072
+P0169,Product 169,Toys,9.97,4.9,1986
+P0170,Product 170,Beauty,23.7,4.6,1306
+P0171,Product 171,Automotive,20.6,4.6,1264
+P0172,Product 172,Sports,17.23,3.7,95
+P0173,Product 173,Books,193.53,3.5,1507
+P0174,Product 174,Home & Garden,49.65,3.2,135
+P0175,Product 175,Automotive,9.39,2.6,821
+P0176,Product 176,Beauty,82.92,4.7,546
+P0177,Product 177,Books,276.48,4.5,154
+P0178,Product 178,Books,92.99,5.0,1558
+P0179,Product 179,Electronics,7.25,5.0,1245
+P0180,Product 180,Books,20.4,3.9,34
+P0181,Product 181,Sports,117.56,4.4,1613
+P0182,Product 182,Toys,16.32,4.9,1427
+P0183,Product 183,Beauty,51.62,4.6,76
+P0184,Product 184,Books,71.85,3.1,242
+P0185,Product 185,Electronics,13.11,3.6,118
+P0186,Product 186,Sports,31.2,2.8,1179
+P0187,Product 187,Clothing,1.3,4.9,120
+P0188,Product 188,Toys,11.89,4.0,237
+P0189,Product 189,Toys,25.72,3.1,120
+P0190,Product 190,Beauty,9.51,4.2,1503
+P0191,Product 191,Toys,169.43,4.0,43
+P0192,Product 192,Books,7.92,3.4,632
+P0193,Product 193,Electronics,21.33,2.8,1809
+P0194,Product 194,Toys,37.74,4.2,1969
+P0195,Product 195,Toys,139.95,3.8,1402
+P0196,Product 196,Clothing,7.88,4.4,757
+P0197,Product 197,Clothing,105.97,3.8,604
+P0198,Product 198,Home & Garden,33.46,4.6,1587
+P0199,Product 199,Sports,12.41,3.9,434
+P0200,Product 200,Books,52.57,3.9,622
