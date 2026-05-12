@@ -1,8 +1,3 @@
-"""
-Step 1: Generate synthetic e-commerce interaction and product data.
-Replace this with a real data loader if you have actual purchase/click logs.
-"""
-
 import os
 import numpy as np
 import pandas as pd
@@ -11,15 +6,15 @@ np.random.seed(42)
 
 os.makedirs("data/raw", exist_ok=True)
 
-# ── Config ──────────────────────────────────────────────────────────────────
+# Config
 N_USERS    = 500
 N_PRODUCTS = 200
-N_INTERACTIONS = 8000   # sparse: ~8% density
+N_INTERACTIONS = 8000  
 
 CATEGORIES = ["Electronics", "Clothing", "Books", "Home & Garden",
               "Sports", "Beauty", "Toys", "Automotive"]
 
-# ── Products ─────────────────────────────────────────────────────────────────
+#  Products 
 product_ids = [f"P{str(i).zfill(4)}" for i in range(1, N_PRODUCTS + 1)]
 products = pd.DataFrame({
     "product_id":   product_ids,
@@ -30,11 +25,10 @@ products = pd.DataFrame({
     "n_reviews":    np.random.randint(10, 2000, N_PRODUCTS),
 })
 
-# ── Users ────────────────────────────────────────────────────────────────────
+# Users
 user_ids = [f"U{str(i).zfill(4)}" for i in range(1, N_USERS + 1)]
 
-# ── Interactions (implicit + explicit) ───────────────────────────────────────
-# Simulate skewed popularity: some products are much more popular
+# Interactions (implicit + explicit) 
 popularity_weights = np.random.zipf(1.5, N_PRODUCTS).astype(float)
 popularity_weights /= popularity_weights.sum()
 
@@ -50,7 +44,7 @@ interactions = pd.DataFrame({
         p=[0.65, 0.20, 0.15]
     ),
     "rating": np.where(
-        np.random.random(N_INTERACTIONS) < 0.35,   # 35% leave a rating
+        np.random.random(N_INTERACTIONS) < 0.35,  
         np.random.randint(1, 6, N_INTERACTIONS),
         np.nan
     ),
