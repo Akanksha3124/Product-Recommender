@@ -1,7 +1,3 @@
-"""
-Step 6: Build the interactive HTML recommendation dashboard.
-Uses the same Plotly-based approach as the social dashboard.
-"""
 
 import os
 import pickle
@@ -24,7 +20,7 @@ COLORS = {
     "gray":   "#888780",
 }
 
-# ── Load data ─────────────────────────────────────────────────────────────────
+#  Load data 
 interactions_path = "data/cleaned/interactions_clean.csv"
 products_path     = "data/cleaned/products_clean.csv"
 
@@ -35,7 +31,7 @@ if not os.path.exists(interactions_path):
 interactions = pd.read_csv(interactions_path)
 products     = pd.read_csv(products_path)
 
-# ── Load models ───────────────────────────────────────────────────────────────
+# Load models 
 item_cf_model = svd_model = ncf_ckpt = None
 
 if os.path.exists("models/item_cf.pkl"):
@@ -49,7 +45,7 @@ if os.path.exists("models/svd_model.pkl"):
 if os.path.exists("models/ncf_model.pt"):
     ncf_ckpt = torch.load("models/ncf_model.pt", map_location="cpu")
 
-# ── Build charts ──────────────────────────────────────────────────────────────
+#  Build charts 
 fig = make_subplots(
     rows=2, cols=2,
     specs=[
@@ -64,7 +60,7 @@ fig = make_subplots(
     )
 )
 
-# ── Chart 1: Top 15 products ──────────────────────────────────────────────────
+# Chart 1: Top 15 products
 top15 = (
     interactions.groupby("product_id")["n_events"]
     .sum().sort_values(ascending=False).head(15)
@@ -79,7 +75,7 @@ fig.add_trace(go.Bar(
     name="Interactions",
 ), row=1, col=1)
 
-# ── Chart 2: Event type pie ───────────────────────────────────────────────────
+#Chart 2: Event type pie 
 raw = pd.read_csv("data/raw/interactions.csv")
 event_counts = raw["event_type"].value_counts()
 fig.add_trace(go.Pie(
@@ -90,7 +86,7 @@ fig.add_trace(go.Pie(
     textinfo="label+percent",   # 👈 shows View / Add to Cart / Purchase
 ), row=1, col=2)
 
-# ── Chart 3: User activity histogram ─────────────────────────────────────────
+# Chart 3: User activity histogram 
 user_activity = interactions.groupby("user_id")["n_events"].sum().values
 fig.add_trace(go.Histogram(
     x=user_activity,
@@ -99,7 +95,7 @@ fig.add_trace(go.Histogram(
     name="Users",
 ), row=2, col=1)
 
-# ── Chart 4: Category purchase rate ──────────────────────────────────────────
+# Chart 4: Category purchase rate 
 cat_data = interactions.merge(products[["product_id", "category"]], on="product_id")
 cat_purchase = (
     cat_data.groupby("category")["has_purchase"]
@@ -116,8 +112,7 @@ fig.add_trace(go.Bar(
     name="Purchase rate",
 ), row=2, col=2)
 
-# ── Chart 5: Model comparison bar ────────────────────────────────────────────
-# Re-run a quick leave-one-out eval if models are available
+#  Chart 5: Model comparison bar 
 def quick_ndcg(rec_fn, test_dict, k=10, max_users=200):
     ndcg_vals = []
     for user, held_out in list(test_dict.items())[:max_users]:
@@ -214,7 +209,7 @@ else:
         showarrow=False, row=3, col=1
     )
 
-# ── Chart 6: NCF loss curve ───────────────────────────────────────────────────
+# Chart 6: NCF loss curve 
 if ncf_ckpt:
     losses = ncf_ckpt["epoch_losses"]
     fig.add_trace(go.Scatter(
@@ -226,7 +221,7 @@ if ncf_ckpt:
         name="NCF loss",
     ), row=3, col=2)
 
-# ── Layout ────────────────────────────────────────────────────────────────────
+#  Layout 
 fig.update_layout(
     title=dict(
         text="E-Commerce Product Recommendation Dashboard",
